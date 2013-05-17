@@ -1,3 +1,26 @@
+/**
+  ******************************************************************************
+  * @file    biaxial_servo_sample0.cpp
+  * @author  Elechouse Team
+  * @version V1.0
+  * @date    2013-05-16
+  * @brief   This file provides a demostration on 
+              how to use biaxialservo driver
+  ******************************************************************************
+  * @note:
+         Usage:
+           - i --> up; 
+           - k --> down; 
+           - j --> left; 
+           - l --> right;
+           - o --> center; 
+         This demo also can be used with Openwrt(wifi-car project).
+  ******************************************************************************
+  * @section  HISTORY
+  
+    V1.0    Initial version.
+  */
+
 #include "Servo.h"
 #include "BiaxialServo.h"
 
